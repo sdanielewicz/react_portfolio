@@ -1,17 +1,25 @@
 .navbar {
-    background: #6a1b9a;
+    background: black;
+    color: #16C60C;
   }
   
   .navbar a {
-    color: white;
+    /* color: white; */
+    color: #16C60C;
+
     /* font-size: 1.3rem; */
-    /* text-decoration: none; */
+    /* text-decoration:dotted; */
     /* margin: 5px; */
     /* line-height: 3; */
   }
 
   ul.nav a:hover{
-    color: pink;
-    background: black;
+    color: #3A96DD;
   }
-  
+
+  .nav-tabs .nav-item .nav-link.active{
+    color: #16C60C;
+    background: black;
+
+
+  }

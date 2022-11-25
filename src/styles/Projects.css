@@ -1,0 +1,16 @@
+.project {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". .";
+}
+
+.hi { grid-area: hi; }
+
+a{
+    color: #16C60C;
+
+}
